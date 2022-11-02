@@ -17,31 +17,6 @@ namespace ContactManagement
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            /*string connectionString = "Data Source=ZIN_MAR_PHYOE\\SQLEXPRESS;Initial Catalog=Beauty;Integrated Security=True";
-            SqlConnection sqlCon = new SqlConnection(connectionString);
-            SqlCommand cmd=new SqlCommand("sp_insert", sqlCon);
-            cmd.CommandType = CommandType.StoredProcedure;
-           // cmd.Parameters.AddWithValue("@ID", tBoxID.Text);
-            //cmd.Parameters.AddWithValue("@Cosmetic", tBoxCos.Text);
-            //cmd.Parameters.AddWithValue("@Price", tBoxPrice.Text);
-            sqlCon.Open();
-            int i = cmd.ExecuteNonQuery();
-            
-            sqlCon.Close();
-            if(i!=0)
-            {
-                MessageBox.Show(i + "Data Saved");
-            }*/
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-           
-            
-        }
-
         private void linkContact_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ContactForm contactForm = new ContactForm();

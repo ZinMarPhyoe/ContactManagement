@@ -34,24 +34,7 @@ namespace ContactManagement
             dataGridView1.DataSource = dt;
             con.Close();
         }
-        private void ContactForm_Load(object sender, EventArgs e)
-        {
-            /*string conString = "Data Source=ZIN_MAR_PHYOE\\SQLEXPRESS;Initial Catalog=Contact;Persist Security Info=True;Integrated Security=True;User ID=sa;Password=***********";
-            SqlConnection con = new SqlConnection(conString);
-            con.Open();
-            
-                SqlDataReader reader = null;
-                SqlCommand command = new SqlCommand("select * from tContact", con);
-                reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    lbl1.Text = reader["Name"].ToString();
-                }
-            con.Close();
-            */
-            
-        }
-
+        
         private void linkBackMain_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MainForm mainForm = new MainForm();
